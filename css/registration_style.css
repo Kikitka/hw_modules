@@ -1,0 +1,16 @@
+#registration {
+    background: #191919;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#enter_info {
+    color: #bd1812;
+    font-size: 26px;
+    padding: 20px;
+}

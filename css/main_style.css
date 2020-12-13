@@ -1,0 +1,51 @@
+#content {
+    background: #191919;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+#navigation {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.change {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#ogl {
+    color: #bd1812;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#link2_auth {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+#if_enter {
+    color: #fff;
+    font-size: 20px;
+    padding: 30px;
+}
+
+td {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr.head_table {
+    color: #bd1812;
+}
