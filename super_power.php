@@ -13,13 +13,14 @@
     <main>
         <section id="content">
             <section id="navigation">
+                <a href="index.php" class="change"> Персонажи </a>
                 <a href="super_power.php" class="change">Суперспособности</a>
                 <a href="race.php" class="change">Раса</a>
                 <a href="team.php" class="change">Команды</a>
             </section>
             <?php
                 // Подключение к БД
-                $connection = mysqli_connect('localhost', 'mysql', 'mysql', 'in_marvel');
+                $connection = mysqli_connect('localhost', 'mysql', 'mysql', 'inmarvel');
                 if (!$connection) {
                     echo "Ошибка подключения к БД. Код ошибки: " . mysqli_connect_error();
                     exit();

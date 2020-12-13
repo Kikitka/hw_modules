@@ -8,7 +8,7 @@
         $team = filter_var(trim($_POST['team']), FILTER_SANITIZE_STRING);
 
         mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT); //вывод ошибок
-        $connection = mysqli_connect('localhost', 'mysql', 'mysql', 'in_marvel');
+        $connection = mysqli_connect('localhost', 'mysql', 'mysql', 'inmarvel');
         if (!$connection) 
         {
             echo "Ошибка подключения к БД. Код ошибки: " . mysqli_connect_error();
@@ -36,7 +36,7 @@
 
         // Добавление новой записи
         if(count($err) == 0){
-            $connection->query("INSERT INTO super_heroes (super_name, real_name, race, superpower, team, favorite_hero) VALUES ('$super_name', '$real_name', '$race', '$superpower', '$team')");
+            $connection->query("INSERT INTO super_heroes (super_name, real_name, race, superpower, team) VALUES ('$super_name', '$real_name', '$race', '$superpower', '$team')");
             
             mysqli_close($connection);
             header('Location: /');

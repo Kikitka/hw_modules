@@ -34,11 +34,11 @@
                     </p>
                     <p>
                         superpower<br>
-                        <input class="input" id="superpower" name="password" size="40" type="text" required>
+                        <input class="input" id="superpower" name="superpower" size="40" type="text" required>
                     </p>
                     <p>
                         team<br>
-                        <input class="input" id="favorite_hero" name="favorite_hero" size="40" type="text" required>
+                        <input class="input" id="team" name="team" size="40" type="text" required>
                     </p>
                     <p class="submit">
                         <input class="button" type="submit" value="Добавить запись">

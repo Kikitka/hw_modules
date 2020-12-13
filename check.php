@@ -17,7 +17,7 @@
         }
 
         mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT); //вывод ошибок
-        $connection = mysqli_connect('localhost', 'mysql', 'mysql', 'in_marvel');
+        $connection = mysqli_connect('localhost', 'mysql', 'mysql', 'inmarvel');
         if (!$connection) 
         {
             echo "Ошибка подключения к БД. Код ошибки: " . mysqli_connect_error();
